@@ -1,0 +1,14 @@
+[
+  {
+    "id": "6c01cbc1-3353-4310-9c25-a2fec93063ea",
+    "user_id": "Kal_17",
+    "passwordHash": "$2b$10$J0u.dtbb8sFF95vxsaBCbOUvm0yyPovSkGs6.W9sfZkeSkWMdb5VW",
+    "name": "Kal"
+  },
+  {
+    "id": "be67b856-5604-43c3-8644-a054380cc261",
+    "user_id": "kal2",
+    "passwordHash": "$2b$10$4jA2PvLMCeuPKt3xRELtWeKBeexraXtO4YRWO6x873FL1u1nlzLvS",
+    "name": "test2"
+  }
+]

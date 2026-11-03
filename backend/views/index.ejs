@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin's Blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Kelvin's Blog</h1>
+    <p>CS-312 Mini Project 1</p>
+    <h2>Create a New Post</h2>
+    
+    <form action="/posts" method="POST">
+        <label for="author">Your Name:</label>
+        <input type="text" id="author" name="author" required>
+    
+        <label for="title">Blog Title:</label>
+        <input type="text" id="title" name="title" required>
+    
+        <label for="content">Blog Content:</label>
+        <textarea id="content" name="content" rows="8" required></textarea>
+    
+        <button type="submit">Create Post</button>
+    </form>
+
+    <h2>Blog Posts</h2>
+    
+    <% if (posts.length===0) { %>
+    
+        <p>No posts yet.</p>
+    
+        <% } else { %>
+    
+            <% posts.forEach(post=> { %>
+    
+                <article>
+                    <h3>
+                        <%= post.title %>
+                    </h3>
+                    <p>By <%= post.author %>
+                    </p>
+                    <p>
+                        <%= post.date %>
+                    </p>
+                    <p>
+                        <%= post.content %>
+                    </p>
+
+                    <a href="/posts/edit/<%= posts.indexOf(post) %>">Edit</a>
+
+                    <form action="/posts/delete/<%= posts.indexOf(post) %>" method="POST">
+                        <button type="submit">Delete</button>
+                    </form>
+                </article>
+    
+                <% }); %>
+    
+                    <% } %>
+</body>
+</html>

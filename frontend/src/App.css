@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+  color: #333;
+}
+
+.app {
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+  background-color: #b42f2f;
+  color: white;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+main {
+  margin: 25px 0;
+}
+
+.post-form,
+.post-card {
+  background-color: rgb(245, 167, 167);
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 18px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #471212;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.post-card h3 {
+  margin-top: 0;
+}
+
+.post-card small {
+  color: #777;
+}
+
+.post-actions {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 95%;
+  }
+
+  header {
+    padding: 15px;
+  }
+}

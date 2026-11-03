@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2784a3b1-8a2b-4565-8643-5e40a28d2916",
+    "userId": "6c01cbc1-3353-4310-9c25-a2fec93063ea",
+    "author": "Kal",
+    "title": "test 1 + 2",
+    "content": "test post (and test two to show successful edits, this is an edit)",
+    "date": "11/2/2026"
+  },
+  {
+    "id": "b8f1aedf-d9e0-4607-ab27-3291a987197a",
+    "userId": "6c01cbc1-3353-4310-9c25-a2fec93063ea",
+    "author": "Kal",
+    "title": "proof of deletion",
+    "content": "dummy post to be deleted",
+    "date": "11/2/2026"
+  },
+  {
+    "id": "75c05055-eb57-47d1-a1df-94534fe328bd",
+    "userId": "be67b856-5604-43c3-8644-a054380cc261",
+    "author": "test2",
+    "title": "test 4 + 5 - Second account (and edit success)",
+    "content": "test post to see how other accounts interact (and proof edits are only available to posts you made)",
+    "date": "11/2/2026"
+  }
+]
